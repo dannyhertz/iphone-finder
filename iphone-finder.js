@@ -54,8 +54,7 @@ pollingTimer = setInterval(function () {
 
         availableStores = stores.filter(function (store) {
           return store.partsAvailability[currModelNumber].pickupDisplay !== 'unavailable';
-        });
-        availableStores = availableStores.map(function (store) {
+        }).map(function (store) {
           return store.storeDisplayName;
         });
 
