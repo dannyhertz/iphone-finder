@@ -1,0 +1,11 @@
+{
+  "name": "iphone-finder",
+  "version": "0.0.1",
+  "description": "Find the iPhone of your dreams",
+  "main": "iphone-finder.js",
+  "dependencies": {
+    "node-rest-client": "^1.0.3"
+  },
+  "author": "Danny Hertz",
+  "license": "ISC"
+}
